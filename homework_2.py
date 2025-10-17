@@ -1,5 +1,4 @@
 """ДЗ"""  # добавил параметр "name" что бы было логичнее
-from ftplib import print_line
 
 
 class Person:
@@ -106,7 +105,7 @@ class BestFriend(Friend):
 
     def introduce(self):
         super().introduce()
-        print_line(f"Наше общее воспоминание: {self.shared_memory}.")
+        print(f"Наше общее воспоминание: {self.shared_memory}.")
 
 
 best_friend = BestFriend(
